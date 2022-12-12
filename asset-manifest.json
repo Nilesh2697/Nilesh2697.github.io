@@ -1,16 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.553df8d1.js",
-    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/static/css/main.b1157ee3.chunk.css",
+    "main.js": "/static/js/main.ae9a5351.chunk.js",
+    "main.js.map": "/static/js/main.ae9a5351.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3e6353a4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3e6353a4.js.map",
+    "static/js/2.12eb539d.chunk.js": "/static/js/2.12eb539d.chunk.js",
+    "static/js/2.12eb539d.chunk.js.map": "/static/js/2.12eb539d.chunk.js.map",
+    "static/js/3.3bb03588.chunk.js": "/static/js/3.3bb03588.chunk.js",
+    "static/js/3.3bb03588.chunk.js.map": "/static/js/3.3bb03588.chunk.js.map",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.553df8d1.js.map": "/static/js/main.553df8d1.js.map",
-    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+    "static/css/main.b1157ee3.chunk.css.map": "/static/css/main.b1157ee3.chunk.css.map",
+    "static/js/2.12eb539d.chunk.js.LICENSE.txt": "/static/js/2.12eb539d.chunk.js.LICENSE.txt",
+    "static/media/CSS_logo.6854789a.svg": "/static/media/CSS_logo.6854789a.svg",
+    "static/media/JavaScript_Logo.2e10b2a2.png": "/static/media/JavaScript_Logo.2e10b2a2.png",
+    "static/media/MongoDB_logo.cf4cb4a2.gif": "/static/media/MongoDB_logo.cf4cb4a2.gif",
+    "static/media/Nilesh Resume.a3c080c7.pdf": "/static/media/Nilesh Resume.a3c080c7.pdf",
+    "static/media/Profile_5.c95d6c8b.png": "/static/media/Profile_5.c95d6c8b.png",
+    "static/media/React_logo.64ee26cd.jpg": "/static/media/React_logo.64ee26cd.jpg",
+    "static/media/github.1e61d3b3.png": "/static/media/github.1e61d3b3.png",
+    "static/media/html_logo.2fcf94ab.png": "/static/media/html_logo.2fcf94ab.png",
+    "static/media/materialUi_logo.5b2d8a0a.png": "/static/media/materialUi_logo.5b2d8a0a.png",
+    "static/media/mongoose_logo.df9141d3.png": "/static/media/mongoose_logo.df9141d3.png",
+    "static/media/nodejs.214246b8.png": "/static/media/nodejs.214246b8.png",
+    "static/media/styledCom_logo.3eea9cb9.png": "/static/media/styledCom_logo.3eea9cb9.png"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.553df8d1.js"
+    "static/js/runtime-main.3e6353a4.js",
+    "static/js/2.12eb539d.chunk.js",
+    "static/css/main.b1157ee3.chunk.css",
+    "static/js/main.ae9a5351.chunk.js"
   ]
 }
