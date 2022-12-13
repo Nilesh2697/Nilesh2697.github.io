@@ -1,0 +1,88 @@
+nav {
+    display: flex;
+    background-color: #1B242F;
+    z-index: 5;
+    width: 100%;
+    color: white;
+    justify-content: space-evenly;
+}
+  
+nav > div {
+    cursor: pointer;
+    margin-top: 1%;
+    height: 35px;
+    /* border-radius: 50%; */
+    /* width: 2%; */
+    font-weight: bold;
+    /* margin-left: 18%; */
+    /* border: 1px solid white; */
+}
+
+nav > div:nth-child(1) {
+    cursor: pointer;
+    margin-top: 1%;
+    height: 35px;
+    /* border-radius: 50%; */
+    /* width: 2%; */
+    font-weight: bold;
+}
+  
+nav > div:hover{
+    color: rgb(207, 68, 91);
+}
+
+@media only screen and (min-width: 200px) and (max-width: 500px){
+
+    .burgerNav{
+        display: block;
+        position: fixed;
+        top: 0;
+        z-index: 20;
+        color: black;
+        width: 100%;
+        /* background-color: white; */
+        /* border: 1px solid white; */
+    }
+
+    nav {
+        display: flex;
+        /* background-color: #1B242F; */
+        z-index: 5;
+        width: 100%;
+        color: white;
+        display: none;
+        /* justify-content: space-around; */
+    }
+      
+    nav > div {
+        cursor: pointer;
+        margin-top: 1%;
+        height: 35px;
+        /* border-radius: 50%; */
+        width: 3%;
+        font-weight: bold;
+        font-size: 12px;
+    }    
+
+    nav > div:nth-child(1), nav > div:nth-child(4), nav > div:nth-child(6){
+        cursor: pointer;
+        margin-top: 1%;
+        height: 35px;
+        font-weight: bold;
+        /* border: 1px solid; */
+        margin-left: -8%;
+    }
+    nav > div:nth-child(4){
+        margin-left: -4%;
+    }
+
+    nav > div:nth-child(6){
+        margin-left: -4%;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 2560px){
+    .burgerNav{
+        display: none;
+    }
+}

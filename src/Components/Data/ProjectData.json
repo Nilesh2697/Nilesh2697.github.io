@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "img": "https://raw.githubusercontent.com/Vinesh3124/pepperfry_clone/master/Frontend/src/Images/LandingPage.png",
+        "name": "Pepperfry (clone)",
+        "desc": "Pepperfry is an Indian online marketplace for furniture and home décor. The company is headquartered in Mumbai, Maharashtra",
+        "github": "https://github.com/Vinesh3124/pepperfry_clone",
+        "link": "https://pepperfry.netlify.app/",
+        "tech":[
+            "https://github.com/Vinesh3124/Vinesh3124.github.io/blob/main/src/Components/Images/MERN.png?raw=true"
+        ]
+    },
+    {
+        "id": 2,
+        "img": "https://github.com/Shubhamsharma585/Shine-masai/blob/main/public/Snapshots/landingPage.jpg?raw=true",
+        "name": "Shine (clone)",
+        "desc": "Shine.com is the most innovative and second largest online job portal in India. Founded in 2008, over the past decade, Shine.com has become a prominent name in the recruitment industry.",
+        "github": "https://github.com/Shubhamsharma585/Shine-masai",
+        "link": "https://shine-masai.vercel.app/",
+        "tech":[
+            "https://github.com/Vinesh3124/Vinesh3124.github.io/blob/main/src/Components/Images/MERN.png?raw=true"
+        ]
+    },
+    {
+        "id": 3,
+        "img": "https://cdn.hashnode.com/res/hashnode/image/upload/v1612854799247/LGOlirZCY.png?auto=compress,format&format=webp",
+        "name": "Sugar Cosmetics (clone)",
+        "desc": "SUGAR Cosmetics is a cruelty-free makeup brand that is high on style and higher on performance.",
+        "github": "https://github.com/AbhinavRajSing/SugarCosmetics-Clone",
+        "link": "https://sugarcosmetics.netlify.app/index.html",
+        "tech":[
+            "https://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-details.png"
+        ]
+    },
+    {
+        "id": 4,
+        "img": "https://raw.githubusercontent.com/Vinesh3124/Kosi_bathandbodyworks/main/Readme%20img/homepage1.png",
+        "name": "Bath & Body Works (clone)",
+        "desc": "Bath & Body Works is one of the world's leading specialty retailers and home to America's Favorite Fragrances",
+        "github": "https://github.com/Vinesh3124/Kosi_bathandbodyworks",
+        "link": "https://nifty-heyrovsky-71ed2c.netlify.app/index.html",
+        "tech":[
+            "https://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-details.png"
+        ]
+    }
+]

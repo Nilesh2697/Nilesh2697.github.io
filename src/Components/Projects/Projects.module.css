@@ -1,0 +1,256 @@
+.main{
+    height: auto;
+    font-family: 'Roboto Slab', serif;
+    border: 1px solid white;
+}
+
+.title{
+    margin-top: 5%;
+    height: 50px;
+    text-align: center;
+}
+
+.logoImg{
+    width: 100%;
+    height: 100%;
+    /* object-fit: contain; */
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.title>span{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.projectContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projectCard{
+    width: 35%;
+    height: auto;
+    border: 1px solid #f5f8fa;
+    margin: auto;
+    margin-top: 4%;
+    border-radius: 5%;
+    padding: 5px;
+    background: white;
+    box-shadow:  18px 18px 19px #b5b8b9,
+                -18px -18px 19px #ffffff;
+}
+
+.projectCardPic{
+    width: 95%;
+    height: 220px;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 5%;
+}
+
+.projectCardName{
+    width: 95%;
+    height: 30px;
+    margin: auto;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.projectCardName>span{
+    font-weight: bold;
+}
+
+.projectCardStack{
+    display: flex;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 1%;
+    /* border: 1px solid; */
+}
+
+.projectCardDesc{
+    width: 95%;
+    height: 80px;
+    margin: auto;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.projectCardDesc>p{
+    font-size: 13px;
+}
+
+.projectCardBtn{
+    width: 50%;
+    height: 30px;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    /* border: 1px solid; */
+    justify-content: space-between;
+}
+
+.projectCardBtn>button{
+    /* margin-right: 2%; */
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 400px){
+    .main{
+        height: auto;
+        margin-top: 18%;
+    }
+
+    .projectCard{
+        width: 90%;
+        height: auto;
+        border: 1px solid white;
+        margin: auto;
+        margin-top: 8%;
+        padding: 12px;
+        background: white;
+        box-shadow:  18px 18px 19px #b5b8b9,
+                    -18px -18px 19px #ffffff;
+    }
+
+    .projectCardDesc>p{
+        font-size: 12px;
+    }
+
+    .projectCardBtn{
+        width: 80%;
+        height: 30px;
+        margin: auto;
+        margin-top: 5%;
+        display: flex;
+        /* flex-wrap: wrap; */
+    }
+    
+    .projectCardBtn>button{
+        margin-right: 2%;
+        cursor: pointer;
+        height: 30px;
+        margin-top: 2%;
+    }
+
+    .projectCardStack{
+        display: flex;
+        width: 50%;
+        height: 40px;
+        margin: auto;
+        /* border: 1px solid; */
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 700px){
+    .main{
+        height: auto;
+    }
+
+    .projectCard{
+        width: 75%;
+        height: auto;
+        border: 1px solid white;
+        margin: auto;
+        margin-top: 8%;
+        padding: 12px;
+        border-radius: 3%;
+    }
+    
+    .projectCardDesc>p{
+        font-size: 12px;
+    }
+    .projectCardStack{
+        display: flex;
+        width: 50%;
+        height: 30px;
+        margin: auto;
+        margin-top: 15%;
+    }
+    .projectCardBtn{
+        width: 68%;
+        height: 30px;
+        margin: auto;
+        margin-top: 5%;
+        display: flex;
+        /* flex-wrap: wrap; */
+    }
+    
+    .projectCardBtn>button{
+        margin-right: 2%;
+        cursor: pointer;
+        height: 30px;
+        margin-top: 2%;
+    }
+    
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1024px){
+    .main{
+        height: auto;
+    }
+
+    .projectCard{
+        width: 45%;
+        height: auto;
+        border: 1px solid white;
+        margin: auto;
+        margin-top: 4%;
+        border-radius: 3%;
+        padding: 12px;
+    }
+    .projectCardStack{
+        display: flex;
+        width: 50%;
+        height: 30px;
+        margin: auto;
+        margin-top: 15%;
+        /* border: 1px solid; */
+
+    }
+    .projectCardBtn{
+        width: 62%;
+        height: 30px;
+        margin: auto;
+        margin-top: 5%;
+        display: flex;
+        /* flex-wrap: wrap; */
+    }
+    
+    .projectCardBtn>button{
+        margin-right: 2%;
+        cursor: pointer;
+        height: 30px;
+        margin-top: 2%;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px){
+    .main{
+        height: auto;
+    }
+
+    .projectCard{
+        width: 42%;
+        height: auto;
+        border: 1px solid white;
+        margin: auto;
+        margin-top: 4%;
+        border-radius: 5%;
+        padding: 12px;
+    }
+    .projectCardStack{
+        display: flex;
+        width: 50%;
+        height: 40px;
+        margin: auto;
+        /* border: 1px solid; */
+    }
+}

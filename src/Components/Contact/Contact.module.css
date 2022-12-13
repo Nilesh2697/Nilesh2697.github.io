@@ -1,0 +1,221 @@
+.main{
+    height: 100vh;
+    font-family: 'Roboto Slab', serif;
+}
+
+.title{
+    margin-top: 2%;
+    height: 50px;
+    text-align: center;
+}
+
+.title>span{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.infoContainer{
+    display: flex;
+    /* border: 1px solid; */
+    width: 70%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.linksBox{
+    width: 50%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.linksBox>button{
+    margin-top: 2%;
+    width: 50%;
+}
+
+.linksBox>a>button{
+    margin-top: 2%;
+    width: 50%;
+}
+
+.inputBox{
+    width: 50%;
+}
+
+.nameBox, .emailBox, .submitBox, .descBox{
+    width: 80%;
+    margin: auto;
+}
+
+.inputColor{
+    color: #c5c5c5;
+}
+
+.emailBox, .submitBox, .descBox{
+    margin-top: 2%;
+}
+
+.inputUI{
+    height: 40px;
+}
+
+.descrip{
+    width: 99%;
+    border: 1px solid #c5c5c5;
+    border-radius: 3px;
+    background-color: inherit;
+}
+
+.dTag{
+    text-decoration: none;
+    color: white;
+}
+
+.submitButton{
+    width: 20%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: #F50057;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.submitBox>input:hover{
+    background-color: #C51162;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 400px){
+    .main{
+        height: 90vh;
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+
+    .infoContainer{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+
+    .linksBox>div{
+        padding: 5px;
+    }
+
+    .linksBox{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+
+    .inputBox{
+        width: 90%;
+        margin: auto;
+        margin-top: 5%;
+    }
+
+    .linksBox>button{
+        margin-top: 2%;
+        width: 90%;
+        padding: 5px;
+    }
+
+    .submitButton{
+        width: 30%;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        color: white;
+        background-color: #F50057;
+        font-weight: bold;
+        padding: 5px;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 700px){
+    .main{
+        height: 90vh;
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+
+    .infoContainer{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+
+    .linksBox>div{
+        padding: 5px;
+        margin-left: 2%;
+    }
+
+    .linksBox{
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+
+    .inputBox{
+        width: 90%;
+        margin: auto;
+        margin-top: 5%;
+    }
+
+    .linksBox>a>button{
+        margin-top: 10%;
+        width: 90%;
+    }
+
+    .linksBox>button{
+        margin-top: 2%;
+        width: 90%;
+    }
+    .submitButton{
+        width: 30%;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        color: white;
+        background-color: #F50057;
+        font-weight: bold;
+        padding: 5px;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1024px){
+    .main{
+        height: 90vh;
+        margin-top: 15%;
+    }
+    .submitButton{
+        width: 30%;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        color: white;
+        background-color: #F50057;
+        font-weight: bold;
+        padding: 5px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px){
+    .main{
+        height: 90vh;
+        margin-top: 15%;
+    }
+}

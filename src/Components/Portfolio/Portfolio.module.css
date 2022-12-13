@@ -1,0 +1,162 @@
+.contain{
+    height: 100vh;
+    border: 1px solid black;
+    background-image: url("https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/36134145/3b50e159f6b0483838c3eaab082bc325baf4ca5f.gif");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: 'Roboto Slab', serif;
+}
+
+.containhome{
+    height: 100vh;
+}
+
+.badge{
+    width: 15%;
+    height: 30%;
+    margin: auto;
+    margin-top: 7%;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.name{
+    width: 50%;
+    height: 5vh;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.name>h2{
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.name>p{
+    color: white;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.typebox{
+    width: 80%;
+    height: 8vh;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.typebox>h2{
+    color: red;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 400px){
+    .badge{
+        width: 45%;
+        height: 20%;
+        margin: auto;
+        margin-top: 10%;
+        border: 2px solid white;
+        border-radius: 50%;
+    }
+    .name{
+        width: 80%;
+        height: 5vh;
+        margin: auto;
+        margin-top: 2%;
+    }
+    .name>h2{
+        color: white;
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+    .typebox{
+        width: 80%;
+        height: 12vh;
+        margin: auto;
+        margin-top: 8%;
+    }
+    
+    .typebox>h2{
+        color: red;
+        margin: auto;
+        text-align: center;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 700px){
+    .badge{
+        width: 28%;
+        height: 18%;
+        margin: auto;
+        margin-top: 10%;
+        border: 2px solid white;
+        border-radius: 50%;
+    }
+    .name{
+        width: 80%;
+        height: 5vh;
+        margin: auto;
+        margin-top: 2%;
+    }
+    .typebox{
+        width: 80%;
+        height: 8vh;
+        margin: auto;
+        margin-top: 8%;
+    }
+    
+    .typebox>h2{
+        color: red;
+        margin: auto;
+        text-align: center;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1024px){
+    .badge{
+        width: 22%;
+        height: 25%;
+        margin: auto;
+        margin-top: 10%;
+        border: 2px solid white;
+        border-radius: 50%;
+    }
+    .typebox{
+        width: 80%;
+        height: 8vh;
+        margin: auto;
+        margin-top: 4%;
+    }
+    .name>p{
+        color: white;
+        margin-left: -22%;
+        text-align: center;
+        letter-spacing: 3px;
+        width: 150%;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 2560px){
+    .badge{
+        width: 16%;
+        height: 30%;
+        margin: auto;
+        margin-top: 6%;
+        border: 2px solid white;
+        border-radius: 50%;
+    }
+}

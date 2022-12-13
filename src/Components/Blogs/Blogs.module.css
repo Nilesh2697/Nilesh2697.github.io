@@ -1,0 +1,115 @@
+.mainContainer{
+    height: auto;
+    background-color: #EFEBE9;
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 50px;
+    border: 1px solid #EFEBE9;
+    margin-top: 5%;
+}
+
+.title{
+    margin-top: 5%;
+    height: 50px;
+    text-align: center;
+}
+
+.title>span{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.cardsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.blogCard{
+    width: 20%;
+    height: 350px;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 4%;
+    cursor: pointer;
+    border-radius: 3%;
+    background: white;
+    box-shadow:  18px 18px 19px #b5b8b9,
+                -18px -18px 19px #ffffff;
+}
+
+.blogImg, .blogTitle{
+    width: 95%;
+    height: 70%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.blogTitle{
+    height: 24%;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 400px){
+    .mainContainer{
+        height: auto;
+        margin-top: 15%;
+    }
+    .blogCard{
+        width: 85%;
+        height: 300px;
+        border: 1px solid white;
+        margin: auto;
+        margin-top: 4%;
+        border-radius: 3%;
+        background: white;
+        box-shadow:  18px 18px 19px #b5b8b9,
+                    -18px -18px 19px #ffffff;
+    }
+    .blogTitle>h3{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 700px){
+    .mainContainer{
+        height: auto;
+        margin-top: 15%;
+    }
+    .blogCard{
+        width: 85%;
+        height: 300px;
+        border: 1px solid white;
+        margin: auto;
+        margin-top: 4%;
+    }
+    .blogTitle>h3{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1024px){
+    .blogCard{
+        width: 45%;
+        height: 330px;
+        border: 1px solid white;
+        margin: auto;
+        margin-top: 4%;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px){
+    .blogCard{
+        width: 30%;
+        height: 350px;
+        border: 1px solid white;
+        margin: auto;
+        margin-top: 4%;
+    }
+}
