@@ -7,7 +7,7 @@ import { Skills } from './Components/Skills/Skills'
 // import styles from "../src/Components/BottomBanner/Banner.module.css"
 import { Banner } from './Components/BottomBanner/Banner';
 import { DrawerNav } from './Components/NavBar/DrawerNav';
-
+import { Projects } from './Components/Projects/Projects';
 function App() {
   return (
     <div>
@@ -15,6 +15,7 @@ function App() {
         <Portfolio />
         <About />
         <Skills />
+        <Projects/> 
         <Contact />
       </Scrollbar>
       <DrawerNav />
