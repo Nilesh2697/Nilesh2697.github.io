@@ -11,6 +11,7 @@ import { Projects } from './Components/Projects/Projects';
 function App() {
   return (
     <div>
+      <Navbar />
       <Scrollbar renderByPixels={true}>
         <Portfolio />
         <About />
@@ -19,7 +20,6 @@ function App() {
         <Contact />
       </Scrollbar>
       <DrawerNav />
-      <Navbar />
       <Banner />
     </div>
   );
