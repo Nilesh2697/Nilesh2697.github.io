@@ -8,6 +8,9 @@ import { Skills } from './Components/Skills/Skills'
 import { Banner } from './Components/BottomBanner/Banner';
 import { DrawerNav } from './Components/NavBar/DrawerNav';
 import { Projects } from './Components/Projects/Projects';
+import {Stats} from './Components/Stats/stats'
+
+
 function App() {
   return (
     <div>
@@ -16,7 +19,8 @@ function App() {
         <Portfolio />
         <About />
         <Skills />
-        <Projects/> 
+        <Projects/>
+        <Stats/> 
         <Contact />
       </Scrollbar>
       <DrawerNav />
