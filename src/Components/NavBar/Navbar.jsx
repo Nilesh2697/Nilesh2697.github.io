@@ -58,7 +58,7 @@ export class Navbar extends Component {
                         <a style={{color:'white',textDecoration:"none"}} type="button" href={Resume} download rel="noreferrer">Resume</a>  
                     </div> */}
                     <div>
-                        <a style={{color:'white',textDecoration:"none"}} type="button" href={Resume} >Resume</a>  
+                        <a style={{color:'white',textDecoration:"none"}} type="button" href={Resume} target="_blank" >Resume</a>  
                     </div>
                     <div>
                         <Link to="contact" spy={true} smooth={true}>Contact</Link>
