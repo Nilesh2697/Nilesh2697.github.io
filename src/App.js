@@ -9,7 +9,8 @@ import { Banner } from './Components/BottomBanner/Banner';
 import { DrawerNav } from './Components/NavBar/DrawerNav';
 import { Projects } from './Components/Projects/Projects';
 import {Stats} from './Components/Stats/stats'
-
+// import Git from './Components/git/Git';
+import GitHubCalendar from 'react-github-calendar'
 
 function App() {
   return (
@@ -21,6 +22,10 @@ function App() {
         <Skills />
         <Projects/>
         <Stats/> 
+        <div style={{width:'50%', margin: '40px auto', }}>
+          <h1>Git Calender</h1>
+        <GitHubCalendar username="nilesh2697" />
+        </div>
         <Contact />
       </Scrollbar>
       <DrawerNav />
