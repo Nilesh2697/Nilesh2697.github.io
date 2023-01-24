@@ -7,7 +7,7 @@ import {imgData} from "../Data/Techlogo"
 const Skills = () => {
     return (
         <Container className={styles.boxStyle} id="skills" maxWidth="xl">
-            <h2 className={styles.skillsTitle}>Skills</h2>
+            <h2 className={styles.skillsTitle}>Skills & Tools</h2>
             <Box className={styles.rightBox}>
                 {
                     imgData.map(el => (
