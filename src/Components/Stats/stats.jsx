@@ -14,16 +14,16 @@ export  const Stats = () => {
     data-aos-once="false"
     data-aos-anchor-placement="top-center" >
          <h1>Github Stats</h1>
+         <div className="parent">
       <div  className="StatsChild1">
         <a href="https://github.com/Nilesh2697">
-          <img
+          <img className="image"
             align="left"
             src="https://github-readme-streak-stats.herokuapp.com?user=Nilesh2697&theme=radical"
           />
         </a>
         <a href="https://github.com/Nilesh2697">
-          <img 
-            align="left"
+          <img align="left" className="image"
             src="https://github-readme-stats.vercel.app/api?username=Nilesh2697&theme=radical&count_private=true&show_icons=true" //stats
           />
         </a>
@@ -31,14 +31,15 @@ export  const Stats = () => {
       </div>
  
       <div className="StatsChild2">
-        <a href="https://github.com/randeep986">  
+        <a href="https://github.com/Nilesh2697">  
           <img
             align="center"
-            src="https://github-readme-stats.vercel.app/api/top-langs/?username=randeep986&theme=radical"  //launguages
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nilesh2697&theme=radil"  //launguages
           />
         </a>
        
       </div>
+    </div>
     </div>
   );
 };

@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=PT+Sans&family=Poppins:wght@300;400;500;600&display=swap");
 
+/* .parent{
+  
+} */
 .Stats {
   margin: auto;
   margin-top: 5rem;
@@ -32,17 +35,32 @@
   transform: scale(1.1);
 }
 @media only screen and (min-width: 751px) and (max-width: 1050px) {
+  .image{
+    padding-left: 20px;
+    margin-bottom: 30px;
+  }
   .Stats {
     width: 85%;
     text-align: center;
+
   }
 
   .StatsChild1 {
-    width: 100%;
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
   }
 }
 
 @media only screen and (min-width: 350px) and (max-width: 750px) {
+  .image{
+    /* padding-left: 5px; */
+    margin-bottom: 10px;
+    width: 250%;
+    margin-left: -75%;
+    
+  }
   .Stats {
     width: 96%;
     text-align: center;
@@ -51,7 +69,10 @@
     font-size: 25px;
   }
   .StatsChild1 {
-    width: 100%;
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
   }
   .StatsChild2 {
     margin: auto;
@@ -60,7 +81,7 @@
   }
 }
 
-@media only screen and (min-width: 300px) and (max-width: 549px) {
+@media only screen and (min-width: 250px) and (max-width: 549px) {
   .Stats {
     width: 90%;
     text-align: center;
@@ -70,9 +91,11 @@
     font-size: 20px;
   }
   .StatsChild1 {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
+    width: 30%;
+    padding-left:10px ;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
   }
   .StatsChild2 {
     margin: auto;
@@ -88,4 +111,7 @@
     margin-top: 15px;
     width: 90%;
   }
+  /* .image{
+    width: 50%;
+  } */
 }
