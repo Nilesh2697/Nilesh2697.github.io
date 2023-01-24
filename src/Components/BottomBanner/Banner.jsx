@@ -5,7 +5,7 @@ import styles from "./Banner.module.css"
 const Banner = () => {
     return (
         <Box maxWidth="xl" className={styles.bottomBanner}>
-            <span>Created by Nilesh Prajapati</span>
+            <span>Created by Nilesh</span>
         </Box>
     )
 }
