@@ -47,6 +47,7 @@ const Contact = () => {
             <Box className={styles.infoContainer}>
                 <Box className={styles.linksBox}>
                     <Button
+                    id="contact-linkedin"
                         variant="contained"
                         color="secondary"
                         startIcon={< LinkedInIcon/>}
@@ -55,6 +56,7 @@ const Contact = () => {
                         LinkedIn
                     </Button>
                     <Button
+                    id="contact-github"
                         variant="contained"
                         color="secondary"
                         startIcon={< GitHubIcon/>}
@@ -62,7 +64,8 @@ const Contact = () => {
                     >
                         GitHub
                     </Button>   
-                    <Button                     
+                    <Button
+                    id="contact-email"                     
                         variant="contained"
                         color="secondary"
                         // startIcon={< EmailIcon/>}
@@ -71,7 +74,8 @@ const Contact = () => {
                             Prajapatinil26@gmail.com
                         </a>
                     </Button>
-                    <Button                     
+                    <Button 
+                    id="contact-phone"                      
                         variant="contained"
                         color="secondary"
                         // startIcon={< EmailIcon/>}

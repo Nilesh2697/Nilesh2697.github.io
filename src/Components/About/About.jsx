@@ -15,7 +15,7 @@ const About = () => {
                             am a Full Stack Developer  recently graduated from Masai school  and
                             looking for a career as a Full Stack Developer . 
                         </p>
-                        <p>
+                        <p id="user-detail-intro"> 
                             I am from Pune, Maharashtra  and I've completed my Higher Secondary Education,   from Pune University. 
                         </p>
                         <p>
