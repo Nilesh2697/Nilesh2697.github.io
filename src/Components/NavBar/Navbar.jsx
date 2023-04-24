@@ -40,27 +40,27 @@ export class Navbar extends Component {
         : {};
 
         return (
-            <div>
+            <div >
                 <nav id="nav-menu" ref={this.navbar} style={{ ...styles }}>
-                    <div id="home">
+                    <div id="home" class="nav-link home">
                         <Link to="home" spy={true} smooth={true}><lable>Home</lable></Link>
-                    </div>
-                    <div>
+                    </div >
+                    <div id="about" class="about section nav-link about"  > 
                         <Link to="about" spy={true} smooth={true}>About</Link>
                     </div>
-                    <div>
+                    <div id="skills" class="nav-link skills">
                         <Link to="skills" spy={true} smooth={true}>Skills & Tools </Link>
                     </div>
-                    <div>
+                    <div id="projects" class="nav-link projects">
                         <Link to="projects" spy={true} smooth={true}>Projects</Link>    
                     </div>
                     {/* <div>
                         <a style={{color:'white',textDecoration:"none"}} type="button" href={Resume} download rel="noreferrer">Resume</a>  
                     </div> */}
-                    <div id="resume-button-1">
-                        <a id="resume-button-1" style={{color:'white',textDecoration:"none"}} type="button" href={Resume} target="_blank" >Resume</a>  
+                    <div id="resume-button-1" class="nav-link resume">
+                        <a style={{color:'white',textDecoration:"none"}} type="button" href={Resume} target="_blank" >Resume</a>  
                     </div>
-                    <div>
+                    <div id="contact" class="nav-link contact">
                         <Link to="contact" spy={true} smooth={true}>Contact</Link>
                     </div>
                 </nav>
