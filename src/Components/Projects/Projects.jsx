@@ -15,7 +15,7 @@ const Projects = () => {
     }
 
     return (
-        <Container id="projects" maxWidth="xl" className={styles.main}>
+        <Container id="projects" maxWidth="xl" className={styles.main} class="project-card">
             <Box className={styles.title}>
                 <span>Projects</span>
             </Box>

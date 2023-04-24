@@ -43,8 +43,5 @@ const Portfolio = () => {
         </>
     )
 }
-<div class="home-img">
-</div>
-
 
 export {Portfolio}
