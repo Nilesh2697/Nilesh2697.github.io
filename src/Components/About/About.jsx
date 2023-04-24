@@ -10,7 +10,7 @@ const About = () => {
                 <Box className={styles.leftBox}>
                     <Box className={styles.infoBox}>
                         <h2>About Me</h2>
-                        <p>
+                        <p id="user-detail-name">
                             Hi, My name is Nilesh Prajapati  I
                             am a Full Stack Developer  recently graduated from Masai school  and
                             looking for a career as a Full Stack Developer . 
