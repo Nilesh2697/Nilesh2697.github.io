@@ -22,7 +22,7 @@ const Projects = () => {
             <Box className={styles.projectContainer}>
                 {
                     projectData.map(el => (
-                        <Box className={styles.project-card}>
+                        <Box className={styles.projectCard}>
                             <Box className={styles.projectCardPic}>
                                 <img src={el.img} className={styles.img} alt="Project" />
                             </Box>
