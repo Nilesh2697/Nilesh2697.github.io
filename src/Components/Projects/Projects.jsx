@@ -15,14 +15,14 @@ const Projects = () => {
     }
 
     return (
-        <Container id="projects" maxWidth="xl" className={styles.main} class="project-card">
+        <Container id="projects" maxWidth="xl" className={styles.main} >
             <Box className={styles.title}>
                 <span>Projects</span>
             </Box>
             <Box className={styles.projectContainer}>
                 {
                     projectData.map(el => (
-                        <Box className={styles.projectCard}>
+                        <Box class="project-card">
                             <Box className={styles.projectCardPic}>
                                 <img src={el.img} className={styles.img} alt="Project" />
                             </Box>
