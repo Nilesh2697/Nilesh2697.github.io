@@ -19,6 +19,7 @@ export  const Stats = () => {
         <a href="https://github.com/Nilesh2697">
           <img className="image"
             align="left"
+            id="github-streak-stats"
             src="https://github-readme-streak-stats.herokuapp.com?user=Nilesh2697&theme=radical"
           />
         </a>
