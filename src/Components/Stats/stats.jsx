@@ -24,7 +24,9 @@ export  const Stats = () => {
           />
         </a>
         <a href="https://github.com/Nilesh2697">
-          <img align="left" className="image"
+          <img align="left"
+          id="github-top-langs"
+           className="image"
             src="https://github-readme-stats.vercel.app/api?username=Nilesh2697&theme=radical&count_private=true&show_icons=true" //stats
           />
         </a>
@@ -35,6 +37,7 @@ export  const Stats = () => {
         <a href="https://github.com/Nilesh2697">  
           <img
             align="center"
+            id="github-stats-card" 
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nilesh2697&theme=radil"  //launguages
           />
         </a>
