@@ -1,13 +1,10 @@
-.project-title{
-    height:auto;
-}
 .main{
     height: auto;
     font-family: 'Roboto Slab', serif;
     border: 1px solid white;
 }
 
-.title{
+.project-title{
     margin-top: 5%;
     height: 50px;
     text-align: center;
@@ -25,7 +22,7 @@
     object-fit: contain;
 }
 
-.title>span{
+.project-title>span{
     font-size: 40px;
     font-weight: bold;
     letter-spacing: 5px;
