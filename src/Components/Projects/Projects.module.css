@@ -4,7 +4,7 @@
     border: 1px solid white;
 }
 
-.project-title{
+.title{
     margin-top: 5%;
     height: 50px;
     text-align: center;
@@ -22,7 +22,7 @@
     object-fit: contain;
 }
 
-.project-title>span{
+.title>span{
     font-size: 40px;
     font-weight: bold;
     letter-spacing: 5px;

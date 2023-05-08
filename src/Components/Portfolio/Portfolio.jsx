@@ -10,7 +10,7 @@ const Portfolio = () => {
         <>
         <Container id="home" maxWidth="xl" className={styles.contain}>
             <div className={styles.badge}>
-                <img style={{width: "100%", height: "100%", borderRadius: "50%"}} alt="Nilesh prajapati" src={profilepic}/>
+                <img class="home-img" style={{width: "100%", height: "100%", borderRadius: "50%"}} alt="Nilesh prajapati" src={profilepic}/>
             </div>
             <Box className={styles.name}>
                 <h2>Nilesh prajapati</h2>
